@@ -18,7 +18,7 @@ injectGlobal`
 `
 
 ReactDOM.render(
-  <Router>
+  <Router basename="/firebase-auth-react">
     <App />
   </Router>,
   document.getElementById('root'),
